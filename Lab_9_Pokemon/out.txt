@@ -1,0 +1,139 @@
+Pokemon: Bayleaf grass
+Pokemon: Typhlosion fire
+Pokemon: Totodile water
+Pokemon: Natu psychic
+Pokemon: Steelix steel
+Pokemon: Scizor bug
+Pokemon: Tyranitar rock
+Pokemon: Ho-oh flying
+Pokemon: Umbreon dark
+Pokemon: Hitmontop fighting
+Pokemon: Misdreavus ghost
+Pokemon: Crobat poison
+Move: triple_kick fighting
+Move: magical_leaf grass
+Move: inferno fire
+Move: night_shade ghost
+Move: psybeam psychic
+Move: iron_tail steel
+Move: dark_pulse dark
+Move: ariel_ace flying
+Move: stone_edge rock
+Move: hydro_pump water
+Move: fury_cutter bug
+Move: poison_fang poison
+Effective: grass water ground rock
+Effective: fire grass ice bug steel
+Effective: water fire ground rock
+Effective: psychic fighting poison
+Effective: steel rock
+Effective: bug grass psychic dark
+Effective: rock fire flying bug
+Effective: flying grass fighting bug
+Effective: dark psychic ghost
+Effective: fighting rock dark steel
+Effective: ghost psychic ghost
+Effective: poison grass
+Ineffective: grass flying poison bug steel fire grass
+Ineffective: fire rock fire water
+Ineffective: water water grass
+Ineffective: psychic steel psychic dark
+Ineffective: steel steel fire water
+Ineffective: bug fighting flying poison ghost steel fire
+Ineffective: rock fighting steel
+Ineffective: flying rock steel
+Ineffective: dark fighting dark
+Ineffective: fighting flying poison bug psychic
+Ineffective: ghost dark
+Ineffective: poison poison rock ghost steel
+
+Pokemon: 12/31
+	[0:Ho-oh->flying]
+	[3:Natu->psychic]
+	[6:Hitmontop->fighting]
+	[8:Umbreon->dark]
+	[9:Typhlosion->fire]
+	[10:Crobat->poison]
+	[11:Tyranitar->rock]
+	[12:Steelix->steel]
+	[18:Scizor->bug]
+	[20:Bayleaf->grass]
+	[23:Misdreavus->ghost]
+	[30:Totodile->water]
+
+Moves: 12/31
+	[0:psybeam->psychic]
+	[1:hydro_pump->water]
+	[4:night_shade->ghost]
+	[7:stone_edge->rock]
+	[8:magical_leaf->grass]
+	[9:inferno->fire]
+	[17:fury_cutter->bug]
+	[22:poison_fang->poison]
+	[23:triple_kick->fighting]
+	[26:dark_pulse->dark]
+	[27:iron_tail->steel]
+	[29:ariel_ace->flying]
+
+Effectivities: 12/31
+	[3:steel->rock]
+	[4:bug->dark,grass,psychic]
+	[6:psychic->fighting,poison]
+	[7:poison->grass]
+	[13:grass->ground,rock,water]
+	[17:water->fire,ground,rock]
+	[18:rock->bug,fire,flying]
+	[19:fire->bug,grass,ice,steel]
+	[22:flying->bug,fighting,grass]
+	[23:dark->ghost,psychic]
+	[24:fighting->dark,rock,steel]
+	[25:ghost->ghost,psychic]
+
+Ineffectivities: 12/31
+	[3:steel->fire,steel,water]
+	[4:bug->fighting,fire,flying,ghost,poison,steel]
+	[6:psychic->dark,psychic,steel]
+	[7:poison->ghost,poison,rock,steel]
+	[13:grass->bug,fire,flying,grass,poison,steel]
+	[17:water->grass,water]
+	[18:rock->fighting,steel]
+	[19:fire->fire,rock,water]
+	[22:flying->rock,steel]
+	[23:dark->dark,fighting]
+	[24:fighting->bug,flying,poison,psychic]
+	[25:ghost->dark]
+Battle: Natu psybeam Tyranitar iron_tail
+	Natu (psybeam) vs Tyranitar (iron_tail)
+	Natu's psybeam is effective against Tyranitar
+	Tyranitar's iron_tail is effective against Natu
+	The battle between Natu and Tyranitar is a tie.
+Battle: Scizor fury_cutter Typhlosion inferno
+	Scizor (fury_cutter) vs Typhlosion (inferno)
+	Scizor's fury_cutter is ineffective against Typhlosion
+	Typhlosion's inferno is super effective against Scizor
+	In the battle between Scizor and Typhlosion, Typhlosion wins!
+Battle: Bayleaf magical_leaf Totodile hydro_pump
+	Bayleaf (magical_leaf) vs Totodile (hydro_pump)
+	Bayleaf's magical_leaf is super effective against Totodile
+	Totodile's hydro_pump is ineffective against Bayleaf
+	In the battle between Bayleaf and Totodile, Bayleaf wins!
+Battle: Umbreon dark_pulse Crobat ariel_ace
+	Umbreon (dark_pulse) vs Crobat (ariel_ace)
+	Umbreon's dark_pulse is effective against Crobat
+	Crobat's ariel_ace is effective against Umbreon
+	The battle between Umbreon and Crobat is a tie.
+Battle: Misdreavus psybeam Hitmontop triple_kick
+	Misdreavus (psybeam) vs Hitmontop (triple_kick)
+	Misdreavus's psybeam is super effective against Hitmontop
+	Hitmontop's triple_kick is effective against Misdreavus
+	In the battle between Misdreavus and Hitmontop, Misdreavus wins!
+Battle: Ho-oh inferno Steelix stone_edge
+	Ho-oh (inferno) vs Steelix (stone_edge)
+	Ho-oh's inferno is super effective against Steelix
+	Steelix's stone_edge is super effective against Ho-oh
+	The battle between Ho-oh and Steelix is a tie.
+Battle: Misdreavus night_shade Scizor poison_fang
+	Misdreavus (night_shade) vs Scizor (poison_fang)
+	Misdreavus's night_shade is effective against Scizor
+	Scizor's poison_fang is ineffective against Misdreavus
+	In the battle between Misdreavus and Scizor, Misdreavus wins!
