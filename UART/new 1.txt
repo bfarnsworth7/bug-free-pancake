@@ -1,0 +1,52 @@
+*** Start of Simulation ***
+Successfully received 0xxx at time 0 ns ***
+  Data Strobe with data=7f and error=0 at time 625315 ns ***
+*** ERROR: received 7f but expecting a5 at time 625315 ns (message at time 1248230 ns) ***
+  Data Strobe with data=e9 and error=1 at time 1299565 ns ***
+*** ERROR: received e9 but expecting 5a at time 1299565 ns (message at time 1922200 ns) ***
+*** ERROR: error signal given but no error in data at time 1299565 ns (message at time 1922200 ns) ***
+  Data Strobe with data=96 and error=1 at time 1973535 ns ***
+*** ERROR: received 96 but expecting 00 at time 1973535 ns (message at time 2596170 ns) ***
+*** ERROR: error signal given but no error in data at time 1973535 ns (message at time 2596170 ns) ***
+  Data Strobe with data=c0 and error=0 at time 2647505 ns ***
+*** ERROR: received c0 but expecting ff at time 2647505 ns (message at time 3270140 ns) ***
+*** ERROR: no error signal given but error in data at time 2647505 ns (message at time 3270140 ns) ***
+  Data Strobe with data=ff and error=1 at time 3321475 ns ***
+*** ERROR: received ff but expecting a5 at time 3321475 ns (message at time 3944110 ns) ***
+  Data Strobe with data=a9 and error=0 at time 3995445 ns ***
+*** ERROR: received a9 but expecting 5a at time 3995445 ns (message at time 4618080 ns) ***
+*** ERROR: no error signal given but error in data at time 3995445 ns (message at time 4618080 ns) ***
+  Data Strobe with data=d6 and error=0 at time 4669415 ns ***
+*** ERROR: received d6 but expecting 00 at time 4669415 ns (message at time 5292050 ns) ***
+*** ERROR: no error signal given but error in data at time 4669415 ns (message at time 5292050 ns) ***
+  Data Strobe with data=80 and error=1 at time 5343385 ns ***
+*** Simulation done with 12 errors at time 5392150 ns ***
+$finish called at time : 5392150 ns : File "J:/ECEN220/Labs/Lab12/Lab12/Lab12.srcs/sim_1/imports/Lab12/tb_rx.v" Line 178
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 921.441 ; gain = 0.000
+
+
+
+*** Start of Simulation ***
+  Data Strobe with data=ff and error=0 at time 573215 ns ***
+Successfully received 0xff at time 573215 ns ***
+  Data Strobe with data=d2 and error=0 at time 1247465 ns ***
+*** ERROR: received d2 but expecting a5 at time 1247465 ns (message at time 1248230 ns) ***
+  Data Strobe with data=2d and error=1 at time 1921435 ns ***
+*** ERROR: received 2d but expecting 5a at time 1921435 ns (message at time 1922200 ns) ***
+*** ERROR: error signal given but no error in data at time 1921435 ns (message at time 1922200 ns) ***
+  Data Strobe with data=80 and error=1 at time 2595405 ns ***
+*** ERROR: received 80 but expecting 00 at time 2595405 ns (message at time 2596170 ns) ***
+*** ERROR: error signal given but no error in data at time 2595405 ns (message at time 2596170 ns) ***
+  Data Strobe with data=ff and error=1 at time 3269375 ns ***
+Successfully received 0xff at time 3269375 ns ***
+  Data Strobe with data=52 and error=1 at time 3943345 ns ***
+*** ERROR: received 52 but expecting a5 at time 3943345 ns (message at time 3944110 ns) ***
+  Data Strobe with data=ad and error=0 at time 4617315 ns ***
+*** ERROR: received ad but expecting 5a at time 4617315 ns (message at time 4618080 ns) ***
+*** ERROR: no error signal given but error in data at time 4617315 ns (message at time 4618080 ns) ***
+  Data Strobe with data=00 and error=0 at time 5291285 ns ***
+*** ERROR: no error signal given but error in data at time 5291285 ns (message at time 5292050 ns) ***
+*** Simulation done with 9 errors at time 5392150 ns ***
+$finish called at time : 5392150 ns : File "J:/ECEN220/Labs/Lab12/Lab12/Lab12.srcs/sim_1/imports/Lab12/tb_rx.v" Line 178
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 921.441 ; gain = 0.000
+

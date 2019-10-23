@@ -1,0 +1,55 @@
+# Set a repeating clock    
+add_force clk {0 0} {1 5} -repeat_every 10    
+  
+# set default values for the inputs    
+add_force rx_in 1 
+add_force odd 1  
+run 52100 ns    
+  
+# set values for the inputs    
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns 
+add_force rx_in 1
+run 52100 ns      
+  
+# set values for the inputs    
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 0
+run 52100 ns   
+add_force rx_in 1
+run 52100 ns   
+add_force rx_in 0
+run 52100 ns 
+add_force rx_in 1
+run 52100 ns    

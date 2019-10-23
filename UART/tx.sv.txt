@@ -1,0 +1,15 @@
+/***************************************************************************     
+*      
+* Module: Asynchronous Transceiver Module    
+*     
+* Author: Benjamin Farnsworth     
+* Class: ECEN 220, Section 2, Fall 2018     
+* Date: 11/28/2018     
+*     
+* Description: A full debouncer 
+*     
+*     
+****************************************************************************/   
+  
+module tx #(parameter CLK_FREQUENCY=100000000; parameter BAUD_RATE=19200;)
+(input logic clk, send, odd,
